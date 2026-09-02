@@ -1,0 +1,39 @@
+1) What is the difference between mkdir and touch?
+ans: mkdir command is used to create a directory
+     touch command is used to create an empty file
+2) What is the difference between cp and mv?
+ans: cp command is used to copy the content from one file to another file and both will exist in the system
+     mv command is used to move entire file to another file and newly create file will exist in the system
+
+3) What happens when you use cat > file.txt and the file already exists?
+ans: when we use cat > file.txt, it will replace the existing content from the file with the new content that has been added
+
+4)What happens when you use cat >> file.txt and the file already exists?
+ans: it will append the new content into existing file
+
+5)What does Ctrl+D do when using cat > file.txt?
+ans: it will end the process and return the terminal
+
+6)What is the difference between cat and tac?
+ans: cat command is used to display the content of the file on the terminal
+     tac command is used to display the content of file in reverse order, ex: last line will print first 
+7)What is the purpose of head?
+ans: head command is used to display the top lines of logs
+
+8) What is the purpose of tail?
+ans: tail command is used to display the last few lines of logs
+
+9) How do you display only the first 5 lines of a file?
+ans: I will use head -5 <file_name>
+
+10) How do you display only the last 5 lines of a file?
+ans: tail -5 <file_name>
+
+11)What happens if you use mv to move a file to another directory?
+ans : it will move the file from current dir to another dir and delete the file from existing dir
+
+12) Can cp copy a directory? If yes, what option is generally required?
+ans: yes, we can use cp -r <dir_name> < target_dir>
+
+13) where do you find system log files? which directory?
+ans: /var/log
