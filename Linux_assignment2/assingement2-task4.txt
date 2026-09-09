@@ -1,0 +1,19 @@
+Task-4:
+-------
+scenario: Production Issue
+--------------------------
+
+The application team reports that users are unable to log in. They have provided you with a production.log file containing 100+ lines. (pls find production.log file which is shared with you)
+
+Your job is to investigate the log and answer:
+
+How many ERROR messages are present? === 17 
+Which lines contain login failures? 27,54,55,83,103
+Which lines contain database-related errors? 19, 44, 45,62,90,110
+What are the line numbers of the errors? 19,27, 33, 34, 44, 45,54, 55,62, 68, 76, 83, 90 97, 103, 110, 117
+Show 3 lines before and after each important error.== screenshot attached
+Show the last 15 lines of the log. ===screenshot attached
+Show lines 50â€“70.===screenshot attached 
+Are there any duplicate error messages? - No
+Create a separate file containing the relevant error information. ===screenshot attached
+Rename the original log file as a backup and create a copy of it in the backup directory.=== screenshot attached
