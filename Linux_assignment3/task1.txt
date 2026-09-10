@@ -1,0 +1,8 @@
+How long has the system been running? === 1 day 
+How many users are currently logged in?=== 1 user
+What are the 1-minute, 5-minute and 15-minute load averages? 0.02, 0.05, 0.05
+How much total RAM is available? == 3.3Gi
+How much RAM is currently used?===501Mi
+How much swap is available?=== 1.0Gi
+Which filesystem has the highest disk utilization? ==D:\
+Is any filesystem above 80% utilization? yes, E:\

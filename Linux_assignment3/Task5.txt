@@ -1,0 +1,17 @@
+What is the PID? 
+Ans: it's an Id attached to the particular process which is running in the system
+Who owns the process?
+Ans:Process owns by the users , it can be logged in user or system users as well
+
+When was the process started?
+Ans:1.23 
+What command started the process?
+Ans:/usr/lib/system/systemd-journald
+How many threads does it have?
+Ans: 1 threads
+What are the thread IDs?
+5783
+What is the difference between a process and a thread?
+
+Ans: Process == every command we run on a terminal is c/d process
+     Thread == it's a smallest unit of process that needs to execute

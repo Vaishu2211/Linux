@@ -1,0 +1,3 @@
+Question: Why can free memory be very low while available memory is still high?
+
+Bez free memory show the what currently is left in the system and available memory is combination of free + reclaim from buffer & cache that's why it's showing in higher state
