@@ -1,0 +1,11 @@
+Convert the following symbolic permissions into numeric permissions:
+rwxr-x--- == 744
+rw-r-----== 640
+rwxrwxr-x===741
+r--r--r--==444
+
+Convert the following numeric permissions into symbolic permissions:
+755 ==rwx-rx-rx
+644=== rw-r-r
+750=== rwx-rx-
+700===rwx---
